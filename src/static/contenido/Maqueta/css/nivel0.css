@@ -41,6 +41,10 @@
   margin-left: 30%
 }
 
+.pl-0{
+  padding-left: 0% !important;
+}
+
 
 /* INICIA CAROUSEL */
 .carousel-inner>.item>img,
@@ -560,9 +564,51 @@ div.scrollmenu a {
   text-decoration: none;
 }
 
+#element::-webkit-scrollbar {
+  display: none;
+}
+
 div.scrollmenu a:hover {
   color: #0072CE;
   background-color:rgb(230, 236, 240);
+}
+
+div.scrollmenu-2 { 
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu-2 a {
+  display: inline-block;
+  color: #777;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  width: 80%
+}
+
+div.scrollmenu-2 a:hover {
+  color: #0072CE;
+  background-color:rgb(230, 236, 240);
+}
+
+div.scrollmenu-3 { 
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu-3 a {
+  display: inline-block;
+  color: #777;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  width: 92%
+}
+
+div.scrollmenu-3 a:hover {
+  color: #0072CE;
+  
 }
 
 /* specific item styles */
